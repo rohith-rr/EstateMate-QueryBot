@@ -1,10 +1,10 @@
 import streamlit as st
 from langchain_helper import get_few_shot_db_chain
 
-st.set_page_config(page_title="Property Finder App", page_icon="🏠")
+st.set_page_config(page_title="EstateMate APP", page_icon="🏠")
 
 
-st.title("Property Finder")
+st.title("EstateMate")
 st.markdown("*Ask questions about properties!*")
 
 
