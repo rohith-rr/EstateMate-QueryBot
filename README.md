@@ -36,7 +36,7 @@ To set up this project, follow these steps:
 
 1. **Start the Streamlit UI:**
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 2. **Enter your query in english**
 ## Results
