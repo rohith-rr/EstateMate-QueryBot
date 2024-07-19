@@ -1,8 +1,7 @@
 
 # Conversational Data Retrieval on Real Estate Database
 
-## Project Overview
-Developed an end-to-end conversational real estate database retrieval system using Streamlit UI, Google Palm LLM, and the Langchain framework. This system interacts with a MySQL database for dynamic Q&A, implementing few-shot learning and Hugging Face embeddings stored in ChromaDB for enhanced query accuracy.
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -10,10 +9,10 @@ Developed an end-to-end conversational real estate database retrieval system usi
 3. [Usage](#usage)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
-6. [Acknowledgements](#acknowledgements)
 
 ## Introduction
-This project aims to provide a user-friendly interface for querying real estate data conversationally. The system utilizes Google Palm LLM for natural language understanding, Langchain for managing the conversational flow, and integrates with a MySQL database. Few-shot learning and Hugging Face embeddings stored in ChromaDB are employed to improve query accuracy and relevance.
+
+This project is an end-to-end conversational real estate database retrieval system using Streamlit UI, Google Palm LLM, and the Langchain framework. This system provides a user-friendly interface for querying real estate data conversationally. It interacts with a MySQL database for dynamic Q&A, utilizing few-shot learning and Hugging Face embeddings stored in ChromaDB to enhance query accuracy and relevance. Google Palm LLM handles natural language understanding, while Langchain manages the conversational flow.
 
 ## Installation
 
@@ -26,11 +25,31 @@ To set up this project, follow these steps:
    
    ```
 2. **Install the required dependencies:**
+    use a virtual environment if required
    ```bash
    pip install -r requirements.txt
    ```
 3. **Set up the database:**
   Ensure you have a MySQL database set up with your real estate data.
   You can import data using the sql file provided.
+## Usage
+
+1. **Start the Streamlit UI:**
+   ```bash
+   streamlit run app.py
+   ```
+2. **Enter your query in english**
+## Results
+
+The conversational system successfully retrieves and responds to queries about real estate data with high accuracy. Key features include:
+
+- **Natural language understanding** powered by Google Palm LLM.
+- **Conversational management** using Langchain.
+- **Enhanced query accuracy** with few-shot learning.
+## Conclusion
+
+This project demonstrates the integration of advanced AI technologies to create a dynamic and interactive real estate query system. The combination of Google Palm LLM, Langchain, and Hugging Face embeddings offers a robust solution for conversational data retrieval.
+
+
 
 
