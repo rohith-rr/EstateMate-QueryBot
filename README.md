@@ -31,5 +31,6 @@ To set up this project, follow these steps:
    ```
 3. **Set up the database:**
   Ensure you have a MySQL database set up with your real estate data.
-  You can import data using the sql file provided
+  You can import data using the sql file provided.
+
 
